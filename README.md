@@ -18,7 +18,8 @@ Este proyecto implementa un análisis avanzado de fuga de clientes utilizando t�
 fuga-clientes-bc-v2-ghost-v/
 ├── Data/                           # Datos originales y procesados
 │   ├── Base_Fuga_24.xlsx
-│   └── ...
+│   ├── Base_Fuga_24.xlsx (Converted - 2025-04-22 09_32).xlsx
+│   └── Base_Fuga_24.xlsx (Converted - 2025-04-22 09_32)(1).xlsx
 ├── Images/                         # Visualizaciones generadas
 │   ├── Categorical_correlation.png
 │   ├── Complete_correlation.png
@@ -56,6 +57,14 @@ Notebook inicial con:
 - Carga y exploración inicial de datos
 - Primeros análisis estadísticos
 
+## Datos Incluidos
+
+El repositorio incluye todos los archivos de datos necesarios para reproducir el análisis:
+
+- **Datos originales**: `Data/Base_Fuga_24.xlsx` y versiones convertidas
+- **Resultados de análisis**: Archivos pickle con importancias de variables y resultados de variables fantasma
+- **Visualizaciones**: Gráficos de correlaciones y análisis
+
 ## Tecnologías Utilizadas
 
 - **Python 3.x**
@@ -70,14 +79,15 @@ Notebook inicial con:
 
 ### Requisitos Previos
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn xgboost joblib
+pip install -r requirements.txt
 ```
 
 ### Ejecución
 1. Clona este repositorio
 2. Navega al directorio del proyecto
-3. Abre los notebooks en Jupyter o Google Colab
-4. Ejecuta las celdas en orden
+3. Instala las dependencias: `pip install -r requirements.txt`
+4. Abre los notebooks en Jupyter o Google Colab
+5. Ejecuta las celdas en orden
 
 ## Resultados Principales
 
