@@ -148,16 +148,22 @@ Thumbs.db
 ~$*.xlsx
 ~$*.xls
 
-# Large data files (optional - remove if you want to include data)
+# INCLUIR archivos de datos específicos del proyecto
+# Los archivos en las carpetas Data/, cat_importances/, num_importances/, ghost_analysis_data/ SÍ se incluirán
+!Data/*.xlsx
+!Data/*.xls
+!cat_importances/*.pkl
+!num_importances/*.pkl
+!ghost_analysis_data/*.pkl
+
+# Excluir archivos de datos grandes en otras ubicaciones
 *.csv
 *.xlsx
 *.xls
 *.pkl
 *.joblib
 
-# Model files (optional - remove if you want to include models)
-*.pkl
-*.joblib
+# Model files (opcional - remove if you want to include models)
 *.h5
 *.hdf5
 
