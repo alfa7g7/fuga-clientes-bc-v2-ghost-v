@@ -57,6 +57,7 @@ Notebook inicial con:
 - Carga y exploración inicial de datos
 - Primeros análisis estadísticos
 
+Por temas de privacidad los últimos dos notebooks han sido extraidos del proyecto, solicitar de forma personal
 ## Datos Incluidos
 
 El repositorio incluye todos los archivos de datos necesarios para reproducir el análisis:
